@@ -15,7 +15,7 @@ input_tensor = tf.reshape(x, shape=[-1, 28, 28, 1])
 
 # for training target model
 num_outputs = 10
-t = [0,0,0,0,0,0,0,0,1,0] # target class
+t = [0,0,0,0,0,0,0,0,1,0] # target class is 9
 labels = []
 for i in range (batch_size):
     labels.append(t)
